@@ -54,5 +54,15 @@ class Main {
     age = 24;
     System.out.println("嘘です、実は私の年齢は" + age + "歳です");
 
+    final double PI;
+    PI = 3.14;
+    int pie;
+    pie = 5;
+
+    System.out.println("半径" + pie + "cmのパイの面積は");
+    System.out.println(pie * pie * PI);
+    System.out.println("もし、パイの半径を倍にしたら");
+    pie = 2 * pie;
+    System.out.println(pie * pie * PI);
   }
 }
