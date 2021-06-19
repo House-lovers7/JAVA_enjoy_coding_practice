@@ -1,1 +1,1 @@
-# JAVA_enjoy_coding_practice
+# JAVAのアプリ開発するための基本コードを覚えるための練習用リポジトリ
