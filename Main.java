@@ -48,5 +48,11 @@ class Main {
     System.out.println(zodiac);
     System.out.println(name);
 
+    age = 32;
+
+    System.out.println("私の年齢は" + age + "歳です");
+    age = 24;
+    System.out.println("嘘です、実は私の年齢は" + age + "歳です");
+
   }
 }
