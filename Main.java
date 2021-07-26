@@ -2,6 +2,8 @@
 開発者：Houser 作成日：2020年6月19日
 */
 
+import javax.management.DynamicMBean;
+
 class Main {
   // ここからメインメソッド
   public static void main(String[] args) {
@@ -36,7 +38,9 @@ class Main {
     // Stringは文字の集まり
     String name;
     name = "すがわら";
-
+    int a; a = 3;
+    int b; b = 5;
+    System.out.println("縦幅" + a + "横幅" + b + "の長方形の面積は、" + a*b );
     System.out.println(age);
     System.out.println(glasses);
     System.out.println(age);
