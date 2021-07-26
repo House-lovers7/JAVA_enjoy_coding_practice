@@ -6,7 +6,7 @@ import javax.management.DynamicMBean;
 
 class Main {
   // ここからメインメソッド
-  public static void main(String[] args) {
+    public static void main (String[] args){
     String msg = "";
     msg += "Hello ";
     msg += "JAVA!";
@@ -58,15 +58,38 @@ class Main {
     age = 24;
     System.out.println("嘘です、実は私の年齢は" + age + "歳です");
 
-    final double PI;
-    PI = 3.14;
-    int pie;
-    pie = 5;
+    final double PI = 3.14;
+    int pie = 5;
 
     System.out.println("半径" + pie + "cmのパイの面積は");
     System.out.println(pie * pie * PI);
     System.out.println("もし、パイの半径を倍にしたら");
     pie = 2 * pie;
     System.out.println(pie * pie * PI);
+    System.out.println("二重引用符(¥¥1234)が打てない");
+
+    int c = 5;
+    int d = 3;
+    int m = Math.max(a,b);
+    System.out.println(a + "と" + b +"比較結果、大きいのは" + m );
+
+    String number = "76";
+    int n = Integer.parseInt(number);
+    System.out.println("いま気になっている数字は"+ (n +1) + "です" );
+
+    int r = new java.util.Random().nextInt(10);
+    System.out.println("あなたの気分を10段階で評価すると" + r + "ですね!!");
+
+    System.out.println("あなたの名前を入力してください");
+    String yourname = new java.util.Scanner(System.in).nextLine();
+    System.out.println("あなたの年齢を入力してください");
+    int yourage = new java.util.Scanner(System.in).nextInt();
+    System.out.println("ようこそ" + yourage + "歳の" + yourname + "さん" );
+
+    int x = 5;
+    int y = 8;
+    int calc = x + y;
+    String ans = "x+yは" + calc;
+    System.out.println(ans);
   }
 }
